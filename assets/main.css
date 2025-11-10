@@ -1,0 +1,37 @@
+/* assets/css/main.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+}
+
+.has-background-dark {
+  background-color: #1a1a1a !important;
+}
+
+.has-background-grey-dark {
+  background-color: #2b2b2b !important;
+}
+
+.has-background-grey-darker {
+  background-color: #1f1f1f !important;
+}
+
+.loader-wrapper {
+  padding: 3rem;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #ffd700;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
